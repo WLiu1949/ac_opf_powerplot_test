@@ -1,0 +1,12 @@
+# 设置 Julia 为主要语言
+*.jl linguist-language=Julia
+
+# 忽略某些文件不参与语言统计
+*.m linguist-vendored
+data/* linguist-vendored
+*.png linguist-generated
+*.svg linguist-generated
+
+# 如果有其他不想统计的文件类型
+# *.md linguist-documentation
+# .vscode/* linguist-vendored
